@@ -1,2 +1,2 @@
-var text = document.getElementById('text');
-var parallaxInstance = new Parallax(text);
+const text = document.getElementById('text');
+const parallaxInstance = new Parallax(text);
