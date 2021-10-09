@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Patua+One&display=swap');
-*,
-::after,
-::before
-{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ephesis', cursive;
     font-family: 'Patua One', cursive;
 }
-body
-{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8); url('./img/bg.jpg'));
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
-.container
-{
+.container{
     max-width: 1200px;
     min-height: 100vh;
     width: 100%;
